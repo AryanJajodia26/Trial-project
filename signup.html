@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <form id="signupForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="rollNumber" placeholder="Roll Number" required>
+            <input type="tel" id="mobileNumber" placeholder="Mobile Number" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+            </div>
+            <input type="file" id="profilePhoto" accept="image/*" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" class="btn">Signup</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
